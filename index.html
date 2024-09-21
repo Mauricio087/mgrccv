@@ -38,16 +38,37 @@
       <h2 class="display-4 fw-bold text-center text-dark my-4">info. personal</h2>
     </main>
       <section class="imgfondo py-5">
-        <br>
-        <ul class="texto1"><li>Fecha de nacimiento: 14 de agosto del año 732</li>
-          <li>Nombre completo    : Mauricio Guillermo Rivera Cea.</li>
-          <li>edad               : 37 años.</li>
-          <li>Estado civil       : Soltero.</li>
-          <li>Nacionalidad       : Chileno.</li>
-          <li>Direccion          : Troncal parcela 13, El Mirador, Panquehue.</li>
-          <li>Ciudad             : San Felipe.</li>
-        </ul>
-        <div class="fmaverick"><img src="./assets/img/maverick.jpeg" alt="maverick">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active fmaverick">
+              <img src="./assets/img/maverick.jpeg" width="400" height="400" class="d-block" alt="maverick">
+            </div>
+            <div class="carousel-item">
+              <ul class="ul bg-primary w-500">
+                <li>Fecha de nacimiento: 14 de agosto del año 732</li>
+                <li>Nombre completo    : Mauricio Guillermo Rivera Cea.</li>
+                <li>edad               : 37 años.</li>
+                <li>Estado civil       : Soltero.</li>
+                <li>Nacionalidad       : Chileno.</li>
+                <li>Direccion          : Troncal parcela 13, El Mirador, Panquehue.</li>
+                <li>Ciudad             : San Felipe.</li>
+                <li>correo electronico : m.river.cea@gmaail.com</li>
+              </ul>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
       <main id="educacion">
